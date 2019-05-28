@@ -1,6 +1,33 @@
 # Angular 7 Project
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+
+#1. Installing Angular CLI
+For installing angular, first make sure you have node and npm installed and then run the following from command prompt.
+
+
+npm install -g @angular/cli
+
+This should install latest angular version. You should see the version in command prompt.
+#2. How to check the angular version installed
+You can use any of the below commands to check the version :
+
+
+ng version
+ng --version
+ng v
+#3. Create a workspace and initial application
+For creating an application in angular, the command is :
+
+
+ng new appname
+Once, the app is created, you can go the corresponding folder and start the server.
+
+
+cd appname
+ng serve --open
+This should open the default angular app with url localhost:4200
+
+
 
 ## Development server
 
